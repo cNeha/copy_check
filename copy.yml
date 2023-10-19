@@ -2,8 +2,8 @@
   tasks:
     - name: Copy a file to managed hosts
       ansible.builtin.copy:
-        src: "/tmp/prasad"
-        dest: "/tmp/neha"
+        src: "/root/f.tar"
+        dest: "/tmp"
       delegate_to: 10.74.255.16
       
     - name: Install the latest fireeye
