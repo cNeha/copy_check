@@ -2,7 +2,7 @@
   tasks:
     - name: Copy a file to managed hosts
       ansible.builtin.copy:
-        src: "/opt/f.tar"
+        src: "/var/lib/awx/projects/_21__copy_check/copy.yml"
         dest: "/tmp"
       
     - name: Install the latest fireeye
