@@ -5,5 +5,5 @@
         src: "root/f.tar"
         dest: "/tmp"
     - name: Install the latest fireeye
-        ansible.builtin.shell:
-          cmd: tar -xvf  /tmp/f.tar
+      ansible.builtin.shell:
+        cmd: tar -xvf  /tmp/f.tar
