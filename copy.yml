@@ -4,6 +4,7 @@
       ansible.builtin.copy:
         src: "/root/f.tar"
         dest: "/tmp"
+      delegate_to: 10.74.255.16
     - name: Install the latest fireeye
       ansible.builtin.shell:
         cmd: tar -xvf  /tmp/f.tar
