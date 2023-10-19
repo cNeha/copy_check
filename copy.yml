@@ -5,6 +5,7 @@
         src: "/tmp/prasad"
         dest: "/tmp/neha"
       delegate_to: 10.74.255.16
+      
     - name: Install the latest fireeye
       ansible.builtin.shell:
-        cmd: tar -xvf  /tmp/f.tar
+        cmd: echo "hello"
